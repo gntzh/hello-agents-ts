@@ -1,7 +1,10 @@
 # Project
 
 This repository records the owner's learning of agent development using TypeScript
-and Effect. Reference implementations:
+and Effect. Primary curriculum:
+- https://github.com/datawhalechina/hello-agents (course code under `code/`)
+
+Finished implementation references:
 - https://github.com/jjyaoao/HelloAgents
 - https://github.com/JunLang-7/HelloAgents-ts
 

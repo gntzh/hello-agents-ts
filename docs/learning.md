@@ -1,14 +1,15 @@
 # 学习索引与约定
 
 本仓库用于学习 Agent 开发，技术实现采用 TypeScript 和 Effect。
-参考 HelloAgents 与 HelloAgents-ts 的实现；具体主题引用实际阅读过的文件或章节链接，并注明本仓库的改动及原因。
+以 Datawhale Hello Agents 的课程内容与 `code/` 为学习主线，HelloAgents 与 HelloAgents-ts 为成品实现参考；具体主题引用实际阅读过的文件或章节链接，并注明本仓库的改动及原因。
 
-## 本地参考实现
+## 本地课程与参考实现
 
-- [HelloAgents](../references/HelloAgents/README.md)：原版实现。
-- [HelloAgents-ts](../references/HelloAgents-ts/README_CN.md)：TypeScript 实现。
+- [Hello Agents 课程](../references/hello-agents-course/README.md)：课程主线，[课程代码](../references/hello-agents-course/code/)。
+- [HelloAgents](../references/HelloAgents/README.md)：Python 成品实现。
+- [HelloAgents-ts](../references/HelloAgents-ts/README_CN.md)：TypeScript 成品实现。
 
-两者以 Git 子模块保存，固定在主仓库记录的提交上。阅读其源码、示例和测试作为参考，本仓库实现与教学保存在自己的目录中。
+三者以 Git 子模块保存，固定在主仓库记录的提交上。阅读其源码、示例和测试作为参考，本仓库实现与教学保存在自己的目录中。
 
 首次克隆本仓库：
 
@@ -37,9 +38,9 @@ git submodule update --init --recursive
 | 自由实验 | `playground/` | 尚未整理的探索 |
 
 章节名使用 `00-engineering-basics` 这样的编号加主题，各处保持一致。
-编号是本仓库的学习顺序，上游按能力组织，引用时记录具体路径而非假定章节对应。
+编号是本仓库的学习顺序；每章教学标明对应的课程章节与 `code/` 路径。成品实现按能力查阅，引用时记录具体路径。
 当前从 [00 工程与 Effect 入门](lessons/00-engineering-basics.md) 开始。
-后续逐步学习模型接口、工具调用、Agent 循环、上下文与持久化，再扩展并发和可观测性；按实际学习进度建目录。
+后续沿课程章节推进，在相应主题穿插 TypeScript 工程与 Effect 学习；成品实现用于对照设计和工程实践。按实际学习进度建目录。
 
 每章练习用 `README.md` 说明目标、运行方法与验收标准；起始代码放 `starter.ts`，参考答案放 `solution.ts`。先读题和尝试，再查看答案。起始代码保持可编译，未完成的行为由题目明确说明。
 
