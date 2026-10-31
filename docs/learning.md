@@ -74,4 +74,4 @@ git submodule update --init --recursive
 ## 当前进度
 
 工程初始化已完成，可通过 `pnpm start` 运行 Effect 日志示例。
-Agent 主题教学和个人学习笔记尚未开始。
+[01 FirstAgentTest](lessons/01-first-agent.md) 的 AI 辅助实现与练习已添加，支持真实模型、天气与 Tavily 搜索；个人学习笔记待填写。
