@@ -1,0 +1,6 @@
+[submodule "references/HelloAgents"]
+	path = references/HelloAgents
+	url = https://github.com/jjyaoao/HelloAgents.git
+[submodule "references/HelloAgents-ts"]
+	path = references/HelloAgents-ts
+	url = https://github.com/JunLang-7/HelloAgents-ts.git

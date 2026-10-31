@@ -1,7 +1,12 @@
 # Project
 
-Use TypeScript and Effect to reproduce agents and examples from
-https://github.com/jjyaoao/HelloAgents.
+This repository records the owner's learning of agent development using TypeScript
+and Effect. Reference implementations:
+- https://github.com/jjyaoao/HelloAgents
+- https://github.com/JunLang-7/HelloAgents-ts
+
+When implementing code, adding exercises, writing lessons, learning notes, or
+reproduction records, read `docs/learning.md` for layout and teaching/comment conventions.
 
 ## Agent skills
 
