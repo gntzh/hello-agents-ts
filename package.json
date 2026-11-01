@@ -9,7 +9,8 @@
     "build": "tsc -p tsconfig.build.json",
     "start:built": "node dist/main.js",
     "check": "pnpm typecheck && pnpm build",
-    "exercise:first-agent": "node --env-file=.env --import tsx exercises/01-first-agent/solution.ts"
+    "exercise:first-agent": "node --env-file=.env --import tsx exercises/01-first-agent/solution.ts",
+    "prepare": "effect-tsgo patch --typescript --oxlint"
   },
   "keywords": [],
   "author": "",
@@ -24,12 +25,18 @@
   "packageManager": "pnpm@12.16.1",
   "type": "module",
   "dependencies": {
-    "effect": "4.1.0"
+    "@effect/platform-node": "^4.1.1",
+    "@tavily/core": "^0.7.14",
+    "effect": "^4.1.1",
+    "openai": "^7.45.1"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "oxlint-tsgolint": "7.0.2005",
+    "oxlint": "1.90.0",
+    "@effect/tsgo": "0.63.0"
   },
   "private": true
 }
